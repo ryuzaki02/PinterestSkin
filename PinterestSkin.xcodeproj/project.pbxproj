@@ -12,6 +12,8 @@
 		D857EC6922F99730005DFE8E /* RefreshControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EC6822F99730005DFE8E /* RefreshControlView.swift */; };
 		D857EC6C22F999C2005DFE8E /* UIView+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EC6B22F999C2005DFE8E /* UIView+Custom.swift */; };
 		D857EC6F22FADB46005DFE8E /* ImageViewWithURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D857EC6E22FADB46005DFE8E /* ImageViewWithURL.swift */; };
+		D85D1AAB23017FD200CB2581 /* DataCaching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D85D1AAA23017FCD00CB2581 /* DataCaching.framework */; };
+		D85D1AAC23017FD200CB2581 /* DataCaching.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D85D1AAA23017FCD00CB2581 /* DataCaching.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D897953222F80B7100513DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897953122F80B7100513DD4 /* AppDelegate.swift */; };
 		D897953422F80B7100513DD4 /* PinsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897953322F80B7100513DD4 /* PinsViewController.swift */; };
 		D897953722F80B7100513DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D897953522F80B7100513DD4 /* Main.storyboard */; };
@@ -23,11 +25,23 @@
 		D897966B22F869EA00513DD4 /* ImageURLModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897966A22F869EA00513DD4 /* ImageURLModel.swift */; };
 		D897966E22F8787E00513DD4 /* PinsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897966D22F8787E00513DD4 /* PinsCollectionViewDataSource.swift */; };
 		D897967322F87A4C00513DD4 /* PinsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D897967222F87A4C00513DD4 /* PinsCollectionViewCell.swift */; };
-		D8B72781230171FE00AF1A8D /* DataCaching.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8B72780230171F600AF1A8D /* DataCaching.framework */; };
-		D8B72782230171FE00AF1A8D /* DataCaching.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8B72780230171F600AF1A8D /* DataCaching.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		D85D1AA923017FCD00CB2581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85D1AA523017FCD00CB2581 /* DataCaching.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8B72760230171A800AF1A8D;
+			remoteInfo = DataCaching;
+		};
+		D85D1AAD23017FD200CB2581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D85D1AA523017FCD00CB2581 /* DataCaching.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B7275F230171A800AF1A8D;
+			remoteInfo = DataCaching;
+		};
 		D897954322F80B7200513DD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D897952622F80B7100513DD4 /* Project object */;
@@ -42,20 +56,6 @@
 			remoteGlobalIDString = D897952D22F80B7100513DD4;
 			remoteInfo = PinterestSkin;
 		};
-		D8B7277F230171F600AF1A8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8B7277B230171F600AF1A8D /* DataCaching.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D8B72760230171A800AF1A8D;
-			remoteInfo = DataCaching;
-		};
-		D8B72783230171FE00AF1A8D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D8B7277B230171F600AF1A8D /* DataCaching.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D8B7275F230171A800AF1A8D;
-			remoteInfo = DataCaching;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D8B72782230171FE00AF1A8D /* DataCaching.framework in Embed Frameworks */,
+				D85D1AAC23017FD200CB2581 /* DataCaching.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +78,7 @@
 		D857EC6822F99730005DFE8E /* RefreshControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshControlView.swift; sourceTree = "<group>"; };
 		D857EC6B22F999C2005DFE8E /* UIView+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Custom.swift"; sourceTree = "<group>"; };
 		D857EC6E22FADB46005DFE8E /* ImageViewWithURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewWithURL.swift; sourceTree = "<group>"; };
+		D85D1AA523017FCD00CB2581 /* DataCaching.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = DataCaching.xcodeproj; sourceTree = "<group>"; };
 		D897952E22F80B7100513DD4 /* PinterestSkin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestSkin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D897953122F80B7100513DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D897953322F80B7100513DD4 /* PinsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsViewController.swift; sourceTree = "<group>"; };
@@ -95,7 +96,6 @@
 		D897966A22F869EA00513DD4 /* ImageURLModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURLModel.swift; sourceTree = "<group>"; };
 		D897966D22F8787E00513DD4 /* PinsCollectionViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsCollectionViewDataSource.swift; sourceTree = "<group>"; };
 		D897967222F87A4C00513DD4 /* PinsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsCollectionViewCell.swift; sourceTree = "<group>"; };
-		D8B7277B230171F600AF1A8D /* DataCaching.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DataCaching.xcodeproj; path = DataCaching/DataCaching.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B72781230171FE00AF1A8D /* DataCaching.framework in Frameworks */,
+				D85D1AAB23017FD200CB2581 /* DataCaching.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,10 +149,18 @@
 			path = CustomClasses;
 			sourceTree = "<group>";
 		};
+		D85D1AA623017FCD00CB2581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D85D1AAA23017FCD00CB2581 /* DataCaching.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D897952522F80B7100513DD4 = {
 			isa = PBXGroup;
 			children = (
-				D8B7277B230171F600AF1A8D /* DataCaching.xcodeproj */,
+				D85D1AA523017FCD00CB2581 /* DataCaching.xcodeproj */,
 				D897953022F80B7100513DD4 /* PinterestSkin */,
 				D897954522F80B7200513DD4 /* PinterestSkinTests */,
 				D897955022F80B7200513DD4 /* PinterestSkinUITests */,
@@ -241,14 +249,6 @@
 			path = PinsCollectionViewCell;
 			sourceTree = "<group>";
 		};
-		D8B7277C230171F600AF1A8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D8B72780230171F600AF1A8D /* DataCaching.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,7 +264,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D8B72784230171FE00AF1A8D /* PBXTargetDependency */,
+				D85D1AAE23017FD200CB2581 /* PBXTargetDependency */,
 			);
 			name = PinterestSkin;
 			productName = PinterestSkin;
@@ -343,8 +343,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D8B7277C230171F600AF1A8D /* Products */;
-					ProjectRef = D8B7277B230171F600AF1A8D /* DataCaching.xcodeproj */;
+					ProductGroup = D85D1AA623017FCD00CB2581 /* Products */;
+					ProjectRef = D85D1AA523017FCD00CB2581 /* DataCaching.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -357,11 +357,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D8B72780230171F600AF1A8D /* DataCaching.framework */ = {
+		D85D1AAA23017FCD00CB2581 /* DataCaching.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = DataCaching.framework;
-			remoteRef = D8B7277F230171F600AF1A8D /* PBXContainerItemProxy */;
+			remoteRef = D85D1AA923017FCD00CB2581 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -431,6 +431,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		D85D1AAE23017FD200CB2581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DataCaching;
+			targetProxy = D85D1AAD23017FD200CB2581 /* PBXContainerItemProxy */;
+		};
 		D897954422F80B7200513DD4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D897952D22F80B7100513DD4 /* PinterestSkin */;
@@ -440,11 +445,6 @@
 			isa = PBXTargetDependency;
 			target = D897952D22F80B7100513DD4 /* PinterestSkin */;
 			targetProxy = D897954E22F80B7200513DD4 /* PBXContainerItemProxy */;
-		};
-		D8B72784230171FE00AF1A8D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DataCaching;
-			targetProxy = D8B72783230171FE00AF1A8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
