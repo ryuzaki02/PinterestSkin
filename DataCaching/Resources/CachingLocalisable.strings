@@ -1,0 +1,18 @@
+/* 
+  CachingLocalisable.strings
+  ImageCachingLibrary
+
+  Created by Aman Thakur on 8/5/19.
+  Copyright © 2019 Aman Thakur. All rights reserved.
+*/
+
+
+//Server errors
+"NoDataFromServerError" = "No data returned from server.";
+"NoResponseError" = "No response from server.";
+"NotFoundError" = "Not found";
+"AccessDeniedError" = "Access Denied.";
+"InvalidProxy" = "Please check your proxy settings.";
+"ConfigurationSettings"="Please provide valid server settings.";
+"NoConnection" = "The Internet connection appears to be offline.";
+"GenericServerErrorMessage" = "Connection Error.";
